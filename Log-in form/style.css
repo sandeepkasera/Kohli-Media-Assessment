@@ -1,0 +1,76 @@
+	html,
+	body {
+	  height: 100%;
+	}
+
+	body {
+	background-image:url(images/bg-image.jpg);
+	background-size:cover;
+	  display: flex;
+	  align-items: center;
+	  padding-top: 40px;
+	  padding-bottom: 40px;
+	}
+	
+	.stxt h1{
+		text-align:center;
+		color:white;
+		font-weight:bold;
+		
+	}
+	.stxt h1 span { 
+	    background-color: aliceblue;
+    color: black;
+    border-radius: 8px;
+    font-family: fantasy;
+    padding: 3px 10px;
+
+}
+	.btedit{
+		background-color:#FF69B4;
+	}
+	.rtxt {
+		color:white;
+	}
+	.form-signin {
+	  width: 100%;
+	  max-width: 330px;
+	  padding: 15px;
+	  margin-left: auto;
+      margin-right: auto;
+	}
+
+	.form-signin .checkbox {
+	  font-weight: 400;
+	}
+
+	.form-signin .form-floating:focus-within {
+	  z-index: 2;
+	}
+
+	.form-signin input[type="email"] {
+	  margin-bottom: -1px;
+	  border-bottom-right-radius: 0;
+	  border-bottom-left-radius: 0;
+	}
+
+	.form-signin input[type="password"] {
+	  margin-bottom: 10px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+	.inp{
+		margin:10px;
+	}
+
+	.bd-placeholder-img {
+	  font-size: 1.125rem;
+	  text-anchor: middle;
+	}
+
+	@media (min-width: 768px) {
+	  .bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	  }
+	}
+	
